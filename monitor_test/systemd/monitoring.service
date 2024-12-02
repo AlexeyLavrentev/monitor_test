@@ -3,7 +3,7 @@ Description=Monitoring Service for test process
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/bash /usr/local/bin/monitoring.sh
+ExecStart=/usr/bin/bash /usr/local/bin/monitor_test.sh
 Restart=always
 RestartSec=60
 
