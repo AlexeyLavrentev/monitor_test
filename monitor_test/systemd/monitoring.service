@@ -1,0 +1,11 @@
+[Unit]
+Description=Monitoring Service for test process
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/bash /usr/local/bin/monitoring.sh
+Restart=always
+RestartSec=60
+
+[Install]
+WantedBy=multi-user.target
